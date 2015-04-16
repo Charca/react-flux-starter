@@ -1,11 +1,11 @@
-var React = require('react');
+import React from 'react';
 
-var App = React.createClass({
-  render: function() {
+class App extends React.Component {
+  render() {
     return (
-      <div>Hello from React</div>
+      <div>Hello from React with ES6!!!</div>
     )
   }
-});
+}
 
-module.exports = App;
+export default App;
